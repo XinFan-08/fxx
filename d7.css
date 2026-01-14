@@ -1,0 +1,39 @@
+header{
+	font-family: "微软雅黑";
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+nav{
+	background: #00ff00;
+	font-family: "楷体";
+	font-weight: normal;
+	width: 100%;
+}
+.navCon{
+	margin: 0px auto;
+	list-style: none;
+	padding: 30px;
+	text-decoration: none;
+	width: 1000px;
+	height: 30px;
+}
+.navCon li a{
+	display: block;
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	
+}
+a:hover{
+	color: #ff0000;
+	text-decoration: underline;
+}
+.navCon li{
+	float: left;
+	width: 100px;
+}
